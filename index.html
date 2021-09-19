@@ -99,7 +99,7 @@
             <span class="price"> ksh 500 - ksh 2000 </span>
             <img src="images/peri-peri.jpg" alt="" />
             <h3>Peri-Peri</h3>
-             <form class="pizza-form">
+             <!-- <form class="pizza-form">
               <div>
                   <label>Size</label> <br>
                   <select name="size">
@@ -119,7 +119,7 @@
                   <input type="checkbox" name="toppings" value="cheese">
               </div>
               <input class='btn' type="submit" value="add to cart"> 
-          </form>
+          </form> -->
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -134,7 +134,7 @@
             <img src="images/mararita.jpg" alt="" />
             <h3>Margarita</h3>
 
-            <form class="pizza-form">
+            <!-- <form class="pizza-form">
               <div>
                   <label>Size</label> <br>
                   <select name="size">
@@ -154,7 +154,7 @@
                   <input type="checkbox" name="toppings" value="cheese">
               </div>
               <input class='btn' type="submit" value="add to cart"> 
-          </form>
+          </form> -->
 
             <div class="stars">
               <i class="fas fa-star"></i>
@@ -170,7 +170,7 @@
             <img src="images/pizzaalfredo.jpg" alt="" />
             <h3>Chicken Alfredo</h3>
 
-            <form class="pizza-form">
+            <!-- <form class="pizza-form">
               <div>
                   <label>Size</label> <br>
                   <select name="size">
@@ -190,7 +190,7 @@
                   <input type="checkbox" name="toppings" value="cheese">
               </div>
               <input class='btn' type="submit" value="add to cart"> 
-          </form>
+          </form> -->
 
             <div class="stars">
               <i class="fas fa-star"></i>
@@ -206,7 +206,7 @@
             <img src="images/chicken_tikka_pizza.jpg" alt="" />
             <h3>chicken tikka</h3>
 
-            <form class="pizza-form">
+            <!-- <form class="pizza-form">
               <div>
                 <label>Size</label> <br>
                 <select name="size">
@@ -226,7 +226,7 @@
                 <input type="checkbox" name="toppings" value="cheese">
               </div>
               <input class='btn' type="submit" value="add to cart">
-            </form>
+            </form> -->
 
             <div class="stars">
               <i class="fas fa-star"></i>
@@ -242,7 +242,7 @@
             <img src="images/Pepperoni.jpg" alt="" />
             <h3>Pepperoni</h3>
 
-            <form class="pizza-form">
+            <!-- <form class="pizza-form">
               <div>
                   <label>Size</label> <br>
                   <select name="size">
@@ -262,7 +262,7 @@
                   <input type="checkbox" name="toppings" value="cheese">
               </div>
               <input class='btn' type="submit" value="add to cart"> 
-          </form>
+          </form> -->
 
             <div class="stars">
               <i class="fas fa-star"></i>
@@ -278,7 +278,7 @@
             <img src="images/spinach alfredo.jpg" alt="" />
             <h3>Spinach Alfredo</h3>
 
-            <form class="pizza-form">
+            <!-- <form class="pizza-form">
               <div>
                 <label>Size</label> <br>
                 <select name="size">
@@ -298,7 +298,7 @@
                 <input type="checkbox" name="toppings" value="cheese">
               </div>
               <input class='btn' type="submit" value="add to cart">
-            </form>
+            </form> -->
 
             <div class="stars">
               <i class="fas fa-star"></i>
@@ -312,7 +312,7 @@
         </div>
       </section>
 
-        <table class="table table-sm table-stripped" id="tbl">
+        <!-- <table class="table table-sm table-stripped" id="tbl">
             <thead>
                 <tr>
                     <th>TYPE</th>
@@ -333,9 +333,164 @@
                   <td colspan="5"><button>CHECKOUT</button></td>
                 </tr>
             </tfoot>
-        </table>
+        </table> -->
 
-
+        <div class="row p-5">
+          <form class="pizza-form col border m-3">
+              <div>
+                  <lavel>Pizza Type</lavel>
+                  <input name="type" type="text" value="DELUXE" readonly>
+              </div>
+              <div>
+                  <lavel>Flavour</lavel>
+                  <select name="flavour">
+                      <option value="peperroni">peperroni</option>
+                      <option value="peri peri">peri peri</option>
+                      <option value="beef steak">beef steak </option>
+                  </select>
+              </div>
+  
+              <div>
+                  <lavel>Size</lavel>
+                  <select name="size">
+                      <option value="small">small - ksh 500  </option>
+                      <option value="medium">medium - ksh 900  </option>
+                      <option value="large">large - ksh 1200  </option>
+                  </select>
+              </div>
+              <div>
+                  <lavel>QTY</lavel>
+                  <input name="qty" type="number" value="1" min="0">
+              </div>
+              <div>           
+                  <label>Onion</label>
+                  <input name="toppings" type="checkbox" value="onion">
+                  <label>Cheese</label>
+                  <input name="toppings" type="checkbox" value="cheese">
+              </div>
+              <input type="submit" value="Add to cart" >
+          </form>
+          <form class="pizza-form col border m-3">
+              <div>
+                  <lavel>Pizza Type</lavel>
+                  <input name="type" type="text" value="classic" readonly>
+              </div>
+              <div>
+                  <lavel>Flavour</lavel>
+                  <select name="flavour">
+                      <option value="peperroni">peperroni</option>
+                      <option value="peri peri">peri peri</option>
+                      <option value="beef steak">beef steak </option>
+                  </select>
+              </div>
+  
+              <div>
+                  <lavel>Size</lavel>
+                  <select name="size">
+                      <option value="small">small - ksh 500  </option>
+                      <option value="medium">medium - ksh 900  </option>
+                      <option value="large">large - ksh 1200  </option>
+                  </select>
+              </div>
+              <div>
+                  <lavel>QTY</lavel>
+                  <input name="qty" type="number" value="1">
+              </div>
+              <div>           
+                  <label>Onion</label>
+                  <input name="toppings" type="checkbox" value="onion">
+                  <label>Cheese</label>
+                  <input name="toppings" type="checkbox" value="cheese">
+              </div>
+              <input type="submit" value="Add to cart" >
+          </form>
+          <form class="pizza-form col border m-3">
+              <div>
+                  <lavel>Pizza Type</lavel>
+                  <input name="type" type="text" value="kids" readonly>
+              </div>
+              <div>
+                  <lavel>Flavour</lavel>
+                  <select name="flavour">
+                      <option value="peperroni">peperroni</option>
+                      <option value="peri peri">peri peri</option>
+                      <option value="beef steak">beef steak </option>
+                  </select>
+              </div>
+  
+              <div>
+                  <lavel>Size</lavel>
+                  <select name="size">
+                      <option value="small">small - ksh 500  </option>
+                      <option value="medium">medium - ksh 900  </option>
+                      <option value="large">large - ksh 1200  </option>
+                  </select>
+              </div>
+              <div>
+                  <lavel>QTY</lavel>
+                  <input name="qty" type="number" value="1">
+              </div>
+              <div>           
+                  <label>Onion</label>
+                  <input name="toppings" type="checkbox" value="onion">
+                  <label>Cheese</label>
+                  <input name="toppings" type="checkbox" value="cheese">
+              </div>
+              <input type="submit" value="Add to cart" >
+          </form>
+          <form class="pizza-form col border m-3">
+              <div>
+                  <lavel>Pizza Type</lavel>
+                  <input name="type" type="text" value="halal" readonly>
+              </div>
+              <div>
+                  <lavel>Flavour</lavel>
+                  <select name="flavour">
+                      <option value="peperroni">peperroni</option>
+                      <option value="peri peri">peri peri</option>
+                      <option value="beef steak">beef steak </option>
+                  </select>
+              </div>
+  
+              <div>
+                  <lavel>Size</lavel>
+                  <select name="size">
+                      <option value="small">small - ksh 500  </option>
+                      <option value="medium">medium - ksh 900  </option>
+                      <option value="large">large - ksh 1200  </option>
+                  </select>
+              </div>
+              <div>
+                  <lavel>QTY</lavel>
+                  <input name="qty" type="number" value="1">
+              </div>
+              <div>           
+                  <label>Onion</label>
+                  <input name="toppings" type="checkbox" value="onion">
+                  <label>Cheese</label>
+                  <input name="toppings" type="checkbox" value="cheese">
+              </div>
+              <input type="submit" value="Add to cart" >
+          </form>
+      </div>
+      <table class="table table-sm table-stripped" id="tbl">
+          <thead>
+              <tr>
+                  <th>TYPE</th>
+                  <th>FLAVOUR</th>
+                  <th>SIZE</th>
+                  <th>QTY</th>
+                  <th>TOPPINGS</th>
+                  <th>PRICE</th>
+                  <th>Remove</th>
+              </tr>
+          </thead>
+          <tbody id="order-summary"></tbody>
+          <tfoot>
+              <tr class="text-end"><td>Total</td><td colspan="4" id="total-price" class="text-end">KSH 0.00</td></tr>
+              <tr><td colspan="5"><button>CHECKOUT</button></td></tr>
+          </tfoot>
+      </table>
       <div class="step-container">
         <h1 class="heading">How it <span>works</span></h1>
   
@@ -385,6 +540,38 @@
         </div>
       </section>
 
+<!-- <textarea
+            placeholder="address"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <input type="submit" value="order now" class="btn" />
+        </form>
+      </div>
+    </section> -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+      </div>
+
+      <h1 class="credit">
+        created by <span> Aisha </span> | all rights reserved 2021
+      </h1>
+    </section>
+
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- <div class="loader-container">
+      <img src="images/pooh-bear.gif" alt="" />
+    </div> -->
 
 
 
