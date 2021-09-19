@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body><header>
     <a href="#" class="logo"><i class="fas fa-utensils"></i>Étienne Pizza</a>
@@ -26,7 +26,7 @@
     
     <section class="home" id="home">
       <div class="content">
-        <h3>Pizza from heaven, made with love</h3>
+        <h3>Pizza from heaven, made with ♡</h3>
        
         <a href="#" class="btn">Order now</a>
       </div>
@@ -37,7 +37,7 @@
     </section>
 
     <section class="speciality" id="speciality">
-      <h1 class="heading">Our <span>speciality</span></h1>
+      <h1 class="heading">COMING<span>SOON!!</span></h1>
 
       <div class="box-container">
         <div class="box">
@@ -92,13 +92,43 @@
 
     
     <section class="popular" id="popular">
-        <h1 class="heading">Add <span>on</span> sides</h1>
+        <h1 class="heading">Best sellers<span>♡</span>Of the Week</h1>
   
         <div class="box-container">
           <div class="box">
             <span class="price"> ksh 500 - ksh 2000 </span>
-            <img src="images/p-1.jpg" alt="" />
-            <h3>burger</h3>
+            <img src="images/peri-peri.jpg" alt="" />
+            <h3>DELUXE</h3>
+             <form class="pizza-form">
+              <div>
+                  <label>Flavour</label> <br>
+                  <select name="flavour">
+                      <option>peperroni</option>
+                      <option>peri peri</option>
+                      <option>beef steak </option>
+                  </select>
+              </div>
+  
+              <div>
+                  <lavel>Size</label> <br>
+                  <select name="size">
+                      <option value="small">small - ksh 500  </option>
+                      <option value="medium">medium - ksh 900  </option>
+                      <option value="large">large - ksh 1200  </option>
+                  </select>
+              </div>
+              <div>
+                  <lavel>QTY</label> <br>
+                  <input type="number" name="QTY" value="1">
+              </div>
+              <div>           
+                  <label>Onion</label>
+                  <input type="checkbox" name="toppings"  value="onion">
+                  <label>Cheese</label>
+                  <input type="checkbox" name="toppings" value="cheese">
+              </div>
+              <input type="submit" value="add to cart"> 
+          </form>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -109,9 +139,9 @@
             <a href="#" class="btn">order now</a>
           </div>
           <div class="box">
-            <span class="price"> ksh 500 - ksh 2000 </span>
-            <img src="images/p-2.jpg" alt="" />
-            <h3>cakes</h3>
+            <span class="price"> ksh 500 - ksh 1200 </span>
+            <img src="images/mararita.jpg" alt="" />
+            <h3>Margarita</h3>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -122,9 +152,9 @@
             <a href="#" class="btn">order now</a>
           </div>
           <div class="box">
-            <span class="price"> ksh 500 - ksh 2000 </span>
-            <img src="images/p-3.jpg" alt="" />
-            <h3>sweets</h3>
+            <span class="price"> ksh 500 - ksh 1200 </span>
+            <img src="images/pizzaalfredo.jpg" alt="" />
+            <h3>Chicken Alfredo</h3>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -135,9 +165,9 @@
             <a href="#" class="btn">order now</a>
           </div>
           <div class="box">
-            <span class="price"> ksh 500 - ksh 2000 </span>
-            <img src="images/p-4.jpg" alt="" />
-            <h3>cupcakes</h3>
+            <span class="price"> ksh 500 - ksh 1200 </span>
+            <img src="images/chicken_tikka_pizza.jpg" alt="" />
+            <h3>chicken tikka</h3>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -148,9 +178,9 @@
             <a href="#" class="btn">order now</a>
           </div>
           <div class="box">
-            <span class="price"> ksh 500 - ksh 2000 </span>
-            <img src="images/p-5.jpg" alt="" />
-            <h3>cold drinks</h3>
+            <span class="price"> ksh 500 - ksh 1200 </span>
+            <img src="images/Pepperoni.jpg" alt="" />
+            <h3>Pepperoni</h3>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -161,9 +191,9 @@
             <a href="#" class="btn">order now</a>
           </div>
           <div class="box">
-            <span class="price"> ksh 500 - ksh 2000 </span>
-            <img src="images/p-6.jpg" alt="" />
-            <h3>cold ice-cream</h3>
+            <span class="price"> ksh 500 - ksh 12000 </span>
+            <img src="images/spinach alfredo.jpg" alt="" />
+            <h3>Spinach Alfredo</h3>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -191,3 +221,21 @@
         </section>
       </div>
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/app.js"></script>
+      </body>
+      </html>
